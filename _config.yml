@@ -16,7 +16,7 @@ just_the_docs:
     # Reference the "tests" collection
     section2:
       # Give the collection a name
-      name: Tests
+      name: Section Two
 
       
 
