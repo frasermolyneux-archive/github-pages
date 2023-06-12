@@ -3,10 +3,8 @@ remote_theme: just-the-docs/just-the-docs@v0.5.2
 plugins:
 - jekyll-remote-theme
 
-just_the_docs:
-  collections:
-    section1:
-      name: Section One
+collections: 
+  section1:
 
 # Enable or disable the site search
 # Supports true (default) or false
