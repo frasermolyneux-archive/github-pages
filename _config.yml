@@ -3,8 +3,22 @@ remote_theme: just-the-docs/just-the-docs@v0.5.2
 plugins:
 - jekyll-remote-theme
 
-collections: 
-  section1:
+# Define Jekyll collections
+collections:
+  # Define a collection named "tests", its documents reside in the "_tests" directory
+  section2:
+    permalink: "/:collection/:path/"
+    output: true
+
+just_the_docs:
+  # Define which collections are used in just-the-docs
+  collections:
+    # Reference the "tests" collection
+    section2:
+      # Give the collection a name
+      name: Tests
+
+      
 
 # Enable or disable the site search
 # Supports true (default) or false
