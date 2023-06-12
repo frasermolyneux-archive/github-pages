@@ -1,1 +1,7 @@
-theme: tactile
+remote_theme: pages-themes/tactile@v0.2.0
+
+plugins:
+- jekyll-remote-theme
+
+title: GitHub Pages Project Site
+description: This is a demo website for GitHub Pages showing a project website
